@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nawzad_Y_Harke</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body{ margin: 0;
+  padding: 0;
+  background-color: rgb(223, 216, 216);
+  background-position: center;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.sarake{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+div.munuo{
+  margin-top: -36px;
+  background-color: rgb(85, 83, 83);
+  height: 250px;
+  width: 200px;
+  display: flex;
+  border-bottom-right-radius:15%;
+  color: rgb(255, 255, 255);
+display: none;
+position: fixed;
+
+}
+
+#logomenue{
+  padding: 0px;
+  color: black;
+  font-size: 24px;
+}
+div.munuo li {
+
+padding: 12px;
+margin-top:12px;
+list-style-type:none ;
+
+}
+div.munuo li a{
+
+  color: white;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+
+
+  }
+/*desgin wan bashen min yet farme*/
+ div .sarake a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight:bold;
+  font-size: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 14px;
+  padding: 12px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(51, 50, 50);
+  font-size: 22px;
+  border:  1px solid black;
+}
+/*desgin we marquue awa bine*/
+.marquee{
+padding: 10px;
+background-color: rgb(85, 83, 83);
+
+color: rgb(255, 250, 250);
+font-size: 22px;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+border-radius: 13px;
+margin-bottom: 0px;
+margin-top:none ;
+}
+img{
+/*wenaye daspeke */
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  width:250px;
+  height:250px;
+  align-items: center;
+  justify-content: center;
+  border:  1px solid black;
+margin-top: 5px;
+}
+/*nivisina nave min*/
+      div #nawemin{
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+        font-size: 12px;
+        font-weight: bolder;
+      }
+
+
+
+@media screen and (max-width:600px){
+
+  div .sarake a{
+
+
+    font-size: 18px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 17px;
+
+    border:  1px solid black;
+  }
+  div.munuo{
+    margin-top: -36px;
+
+    height: 200px;
+    width: 150px;
+    border-bottom-right-radius:15%;
+
+  display: none;
+  }
+  #logomenue{
+    padding: 0px;
+    font-size: 22px;
+  }
+  div.munuo li {
+
+  padding: 6px;
+  margin-top:6px;
+  list-style-type:none ;
+
+  }
+  div.munuo li a{
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 3px;
+  font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+
+
+    }
+  /* marquee ya bine*/
+  .marquee{
+    padding: 13px;
+  margin-top: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+
+    }
+    img{
+      /*wenaye daspeke */
+        border-radius: 44%;
+        width:250px;
+        height:350px;
+        align-items: center;
+        justify-content: center;
+        border:  1px solid black;
+      margin-top: 14px;
+
+      }
+      /*nivisina nave min*/
+       div #nawemin{
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+        font-size: 12px;
+        font-weight: bolder;
+      }
+      body{ margin: 0;
+        padding: 0;
+
+        background-position: center;
+        background-size: cover;
+        font-family: sans-serif;
+
+      }
+      .sarake{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+      }
+  }
+
+
+
+
+</style>
+
+</head>
+<body >
+
+    <div >
+
+   <!--aw icone sare ko list boma vadbit -->
+    <div  id="logomenue" onclick="menue()" ><i   class="fa fa-bars" aria-hidden="true"></i></div>
+    <div class="munuo" id="menyo"><ul><li><a href="about.html" >about</a> </li><li> <a href="html.html" >social</a></li> <li> <a href="photo.html" >photo</a></li> <li><a onclick="sajo()" >back</a></li></ul></div>
+    <center>
+    <div ><img  src="c.jpg" alt="wene min sarake dekor"></div>
+
+    <!--nivisina nave min--><div id="nawemin">
+    <h1 >Nawzad_Y_Harke</h1></div>
+</center>
+    <!--har 3 linket daspeke a sity-->
+    <div class="sarake"  >
+        <a onclick="lang()" href="about.html">about <sub><small>me</small></sub></a>
+        <a href="html.html">social</a>
+        <a href="photo.html">photo</a>
+    </div>
+    <center>
+    <div>
+      <br><br>
+      <h1 >products</h1>
+      <a href="http://rekarast.byethost8.com/?i=1">
+      <img style="border-radius: 40px; padding: 20px;border: none;" src="rekarast.PNG" alt="rekarast">
+    </a>
+    <br>
+    <a href="http://kurdbazar.byethost15.com/?i=1">
+      <img style="border-radius: 40px; padding: 20px;border: none;" src="bazar.png" alt="rekarast">
+    </a>
+    </div></center>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!--marquee ya ma li bine malpare-->
+    <div class="marquee" id="langmar" ><marquee  behavior="" direction="">welcome to my websity this is my official website</marquee></div>
+</div>
+
+<script src="sarake.js"></script>
+</body>
+</html>
