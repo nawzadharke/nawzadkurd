@@ -1,248 +1,489 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nawzad_Y_Harke</title>
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-
-body{ margin: 0;
-  padding: 0;
-  background-color: rgb(223, 216, 216);
-  background-position: center;
-  font-family: 'Times New Roman', Times, serif;
-
-}
-.sarake{
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-div.munuo{
-  margin-top: -36px;
-  background-color: rgb(85, 83, 83);
-  height: 250px;
-  width: 200px;
-  display: flex;
-  border-bottom-right-radius:15%;
-  color: rgb(255, 255, 255);
-display: none;
-position: fixed;
-
-}
-
-#logomenue{
-  padding: 0px;
-  color: black;
-  font-size: 24px;
-}
-div.munuo li {
-
-padding: 12px;
-margin-top:12px;
-list-style-type:none ;
-
-}
-div.munuo li a{
-
-  color: white;
-  text-decoration: none;
-  padding-top: 5px;
-  padding-bottom: 5px;
-font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 22px;
+		<title>Nawzad Personal Portfolio </title>
+		<link href="https://fonts.googleapis.com/css?family=Poppins:300i,400,400i,500,600,700,800" rel="stylesheet">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >	
+		
+		<!--link contact-form-->
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
+	
 
 
-  }
-/*desgin wan bashen min yet farme*/
- div .sarake a{
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-weight:bold;
-  font-size: 20px;
-  margin-right: 100px;
-  margin-left: 100px;
-  margin-top: 14px;
-  padding: 12px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  background-color: rgb(51, 50, 50);
-  font-size: 22px;
-  border:  1px solid black;
-}
-/*desgin we marquue awa bine*/
-.marquee{
-padding: 10px;
-background-color: rgb(85, 83, 83);
+		<!--Favicon for this site -->
+		<link rel="icon" href="assets/img/favicon.jpg"/>		
+		
+		<!-- Fonts -->
+		<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome.min.css">
+		
+		<!-- Icon -->
+		<link rel="stylesheet" type="text/css" href="assets/fonts/simple-line-icons.css">
+		
+		<!-- Slicknav -->
+		<link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+		
+		<!-- Owl-carousel -->
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.min.css">
+		
+		<!-- Nivo Lightbox -->
+		<link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
+		
+		<!-- Text-animated -->
+		<link rel="stylesheet" type="text/css" href="assets/css/animated-headline.css" >
+		
+		<!-- Normalize -->
+		<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+		
+		<!-- Animate -->
+		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+		
+		<!-- Main Style -->
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		
+		<!-- Responsive Style -->
+		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">					
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+  
+	<body data-spy="scroll" data-offset="80">
 
-color: rgb(255, 250, 250);
-font-size: 22px;
-font-weight: bold;
-font-family: 'Times New Roman', Times, serif;
-border-radius: 13px;
-margin-bottom: 0px;
-margin-top:none ;
-}
-img{
-/*wenaye daspeke */
-  border-bottom-right-radius: 30px;
-  border-top-left-radius: 30px;
-  width:250px;
-  height:250px;
-  align-items: center;
-  justify-content: center;
-  border:  1px solid black;
-margin-top: 5px;
-}
-/*nivisina nave min*/
-      div #nawemin{
-        text-align: center;
-        align-items: center;
-        justify-items: center;
-        font-size: 12px;
-        font-weight: bolder;
-      }
+		<!-- START PRELOADER -->
+			<div class="preloader">
+				<div class="loader">
+					<div class="loader-outter"></div>
+					<div class="loader-inner"></div>
+
+					<span>N</span>
+				</div>
+			</div>
+		<!-- END PRELOADER -->		
+		
+		<!-- START NAVBAR -->
+			<nav class="navbar navbar-toggleable-sm fixed-top navbar-light bg-faded site-navigation dark_bg_menu">
+				<div class="container">
+					<a class="navbar-brand" href="#"><p> Nawzad</p></a>          
+				    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+				    </button>
+				    <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+						<ul class="navbar-nav">
+						  <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+						  <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+						  <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>				
+						  <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>				  			
+						  <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>			
+						  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+						</ul>
+				    </div>
+				</div>
+			</nav>      
+		<!-- END NAVBAR -->
+		
+		<!-- Hero Area Start -->
+			<section id="home" class="dark_bg">
+				<div id="particles-js"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-6">
+							<div class="banner_content">
+								<h3>Hi There,</h3>
+								<h1 class="cd-headline clip">
+									<span class="fw_600">I Am</span>
+									<span class="cd-words-wrapper">
+										<b class="is-visible fw_600">Nawzad Harke</b>
+										<b class="fw_600">Owner(Here's Luck)Group</b>
+										<b class="fw_600">Web Designer</b>
+										<b class="fw_600">Web Developer</b>
+										<b class="fw_600">Photographer</b>
+										<b class="fw_600">Manager</b>
+										<b class="fw_600">Video creator</b>
+										
+									</span>
+								</h1>
+								<p>I'm a Web Developer with extensive experience for over 4 years. My expertise is to create and Websites design, graphic design and video creator and i can managing compane and work   many more...</p>
+								<a href="assets/file/nawzadcv.pdf" class="btn btn-secondary banner_btn">Cv Download</a>								
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="banner-images">
+								<img style="border-radius: 25%;  filter: drop-shadow(2px 2px 20px rgb(73, 199, 0)) ;" src="assets/img/nawzadwebimage.png" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</section>
+		<!-- Hero Area End -->
+		
+	
+		<!-- Portfolio Section -->
+			<section id="portfolio" class="dark_bg section-padding">
+				<!-- Container Starts -->
+				<div class="container">        
+					<h2 class="section-title wow flipInX" data-wow-delay="0.4s">My <span>Portfolio</span></h2>
+					<div class="row">          
+						<div class="col-md-12">
+							<!-- Portfolio Controller/Buttons -->
+							<div class="controls text-center">
+							  <a class="filter active btn btn-common" data-filter="all">
+								All 
+							  </a>
+							  <a class="filter btn btn-common" data-filter=".design">
+								Design 
+							  </a>
+							  <a class="filter btn btn-common" data-filter=".development">
+								Development
+							  </a>
+							  <a class="filter btn btn-common" data-filter=".print">
+								Print 
+							  </a>
+							  <a class="filter btn btn-common" data-filter=".print">
+								Photographer 
+							  </a>
+							</div>
+							<!-- Portfolio Controller/Buttons Ends-->
+						</div>
+
+						
+		
+		<!-- Services Section Start -->
+		<section id="services" class="dark_bg services section-padding">
+			<h2 class="section-title wow flipInX" data-wow-delay="0.4s">My <span>Services</span></h2>
+			<div class="container">
+				<div class="row">
+					<!-- Services item -->
+					<div class="col-lg-4 col-md-6 col-xs-12">
+						<div class="services-item wow fadeInDown" data-wow-delay="0.3s">
+							<div class="icon">
+								<img src="assets/img/service/icon-responsive.svg" alt=""/>
+							</div>
+							<div class="services-content">
+								<h3><a href="#">Web Design</a></h3>
+								
+							</div>
+						</div>
+					</div>
+				  <!-- Services item -->
+					<div class="col-lg-4 col-md-6 col-xs-12">
+						<div class="services-item wow fadeInDown" data-wow-delay="0.6s">
+							<div class="icon">
+								<img src="assets/img/service/icon-email.svg" alt=""/>
+							</div>
+							<div class="services-content">
+								<h3><a href="#">Development</a></h3>
+								
+							</div>
+						</div>
+					</div>
+					<!-- Services item -->
+					<div class="col-lg-4 col-md-6 col-xs-12">
+						<div class="services-item wow fadeInDown" data-wow-delay="0.9s">
+							<div class="icon">
+								<img src="assets/img/service/icon-lock.svg" alt=""/>
+							</div>
+							<div class="services-content">
+								<h3><a href="#">Graphic Design</a></h3>
+								
+							</div>
+						</div>
+					</div>
+					<!-- Services item -->
+					<div class="col-lg-4 col-md-6 col-xs-12">
+						<div class="services-item wow fadeInLeft" data-wow-delay="0.9s">
+							<div class="icon">
+								<img src="assets/img/service/icon-easy.svg" alt=""/>
+							</div>
+							<div class="services-content">
+								<h3><a href="#">Responsive Design</a></h3>
+							
+							</div>
+						</div>
+					</div>
+					<!-- Services item -->
+					<div class="col-lg-4 col-md-6 col-xs-12">
+						<div class="services-item wow fadeInUp" data-wow-delay="0.9s">
+							<div class="icon">
+								<img src="assets/img/service/service-icon-bg.svg" alt=""/>
+							</div>
+							<div class="services-content">
+								<h3><a href="#">Marketing</a></h3>
+								
+							</div>
+						</div>
+					</div>
+					<!-- Services item -->
+					<div class="col-lg-4 col-md-6 col-xs-12">
+						<div class="services-item wow fadeInRight" data-wow-delay="0.9s">
+							<div class="icon">
+								<img src="assets/img/service/icon-responsive.svg" alt=""/>
+							</div>
+							<div class="services-content">
+								<h3><a href="#">Support</a></h3>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	<!-- Services Section End -->
+		
+	
+		
+		
+		<!-- START BLOG -->
+			<div id="blog" class="dark_bg blog-area section-padding">
+				<h2 class="section-title wow flipInX" data-wow-delay="0.4s">My <span>Blog</span></h2>
+				<div class="container">							
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="single_blog wow fadeInLeft">
+								<div class="blog-thumb">
+									<div class="blog-image">
+									   <a href="#"><img src="assets/img/italia.png" class="img-responsive" alt=""/></a>
+									</div>
+									<div class="blog-info">
+										<a href="#"><h4>
+											"ITALIA CAFE"</h4></a>
+										<small><i class="fa fa-clock-o"></i>July 1, 2024</small>
+										<span>| Design</span>											
+										<p>menu for italia cafe conntent 3 language </p>
+										<a href="#" class="btn blog_btn btn-secondary">show</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="single_blog wow fadeInUp">
+								<div class="blog-thumb">
+									<div class="blog-image">
+									   <a href="#"><img src="assets/img/kurdbazar.jpg" class="img-responsive" alt=""/></a>
+									</div>
+									<div class="blog-info">
+										<a href="#"><h4>"kurdbazar"</h4></a>
+										<small><i class="fa fa-clock-o"></i>april 30, 2024</small>
+										<span>| Design</span>											
+										<p>create account and selling and buy electronic device original and chatting</p>
+										<a href="#" class="btn blog_btn btn-secondary">show</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="single_blog wow fadeInRight">
+								<div class="blog-thumb">
+									<div class="blog-image">
+									   <a href="#"><img src="assets/img/b5.png" class="img-responsive" alt=""/></a>
+									</div>
+									<div class="blog-info">
+										<a href="#"><h4>"prayers time"</h4></a>
+										<small><i class="fa fa-clock-o"></i>march 26, 2023</small>
+										<span>| Design</span>											
+										<p> this part of website you knew about prayers time all world you can search your country</p>
+										<a href="http://rekarast.byethost8.com/alsalat.php?bajer=duhok" class="btn blog_btn btn-secondary">show</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!--- END CONTAINER -->	
+
+				<div class="container">							
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="single_blog wow fadeInLeft">
+								<div class="blog-thumb">
+									<div class="blog-image">
+									   <a href="#"><img src="assets/img/rekarast.png" class="img-responsive" alt=""/></a>
+									</div>
+									<div class="blog-info">
+										<a href="#"><h4>"Reka Rast"</h4></a>
+										<small><i class="fa fa-clock-o"></i>march 26, 2023</small>
+										<span>| Design</span>											
+										<p> Islamic website learning quran kareem and read books and showing video etc..</p>
+										<a href="#" class="btn blog_btn btn-secondary">show</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="single_blog wow fadeInLeft">
+								<div class="blog-thumb">
+									<div class="blog-image">
+									   <a href="#"><img src="assets/img/reka.png" class="img-responsive" alt=""/></a>
+									</div>
+									<div class="blog-info">
+										<a href="#"><h4>"Reka Rast"</h4></a>
+										<small><i class="fa fa-clock-o"></i>march 26, 2023</small>
+										<span>| Design</span>											
+										<p> Islamic website learning quran kareem and read books and showing video etc..</p>
+										<a href="#" class="btn blog_btn btn-secondary">show</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-xs-12">
+							<div class="single_blog wow fadeInRight">
+								<div class="blog-thumb">
+									<div class="blog-image">
+									   <a href="#"><img src="assets/img/b2.png" class="img-responsive" alt=""/></a>
+									</div>
+									<div class="blog-info">
+										<a href="#"><h4>"Here's Luck"</h4></a>
+										<small><i class="fa fa-clock-o"></i>april 11, 2024</small>
+										<span>| Design</span>											
+										<p>this is web site profitional for Here's Luck group woring online</p>
+										<a href="https://hereisluck4.github.io/hereisluck/index.html" class="btn blog_btn btn-secondary">show</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!--- END CONTAINER -->	
+			</div>
+		<!-- END BLOG -->
+
+           	<!-- Funfacts Section Start -->
+			<section class="dark_bg funfacts-area pb_80 ">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-3">
+							<div class="funfact">
+								<i class="icofont-printer"></i>
+								<h3><span class="counterUp">2024</span>+</h3>
+								<p>Successul Projects</p>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-3">
+							<div class="funfact">
+								<i class="icofont-users"></i>
+								<h3><span class="counterUp">1500</span>+</h3>
+								<p>Followers</p>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-3">
+							<div class="funfact">
+								<i class="icofont-users-alt-5"></i>
+								<h3><span class="counterUp">6</span>+</h3>
+								<p>website</p>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-3">
+							<div class="funfact">
+								<i class="icofont-award"></i>
+								<h3><span class="counterUp">100</span>+</h3>
+								<p>Winning Awards</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+        <!-- Funfacts Section End -->
 
 
+						
 
-@media screen and (max-width:600px){
+<!-- Portfolio Section -->
+<section id="portfolio" class="dark_bg section-padding">
+	<h2 class="section-title wow flipInX" data-wow-delay="0.4s">Contact <span>Us</span></h2>  
+						
 
-  div .sarake a{
+	<!-- Container Starts -->
+	<div class="container">        
+	
+		<div class="row">          
+			<div class="col-md-12">
+				<!-- Portfolio Controller/Buttons -->
+				<div class="controls text-center">
+				  <a href="https://t.me/nawzadkurd" class="filter active btn btn-common" data-filter="all">
+					<i  class='bx bxl-telegram'></i>
+				  </a>
+				  <a href="https://www.tiktok.com/@nawzad_harki4?_t=8nhE698U14S&_r=1" class="filter active btn btn-common" data-filter=".print">
+					<i class='bx bxl-tiktok'></i>
+				</a>
+				
+				  <a href="nawzadyahya393@gmail.com" class="filter btn btn-common" data-filter="all">
+					<i class='bx bxl-gmail'></i>
+				  </a>
+				  <a href="https://www.instagram.com/nawzad_harke4/?igshid=MWM2YjBjM2Q%3D" class="filter active btn btn-common" data-filter=".print">
+					<i class='bx bxl-instagram'></i>
+				  </a>
+				  <a href="https://wa.me/+9647511586247" class="filter btn btn-common" data-filter="all">
+					<i class="fab fa-whatsapp"></i>
+				  </a>
+				  <a href="https://web.facebook.com/profile.php?id=100024987726208&_rdc=1&_rdr" class="filter btn btn-common" data-filter=".print">
+					<i class='bx bxl-facebook'></i>
+				  </a>
+				  <a href="+9647511586247" class="filter btn btn-common" data-filter="all">
+					<i class="fas fa-phone icon"></i>
+				  </a>
+				  
+				 
+				  <a href="https://www.snapchat.com/add/nawzadharke4" class="filter active btn btn-common" data-filter=".print">
+					<i class='bx bxl-snapchat'></i>
+				  </a>
+				 
+				  </a>
+				</div>
+				<!-- Portfolio Controller/Buttons Ends-->
+			</div>
 
-
-    font-size: 18px;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 50px;
-    padding: 17px;
-
-    border:  1px solid black;
-  }
-  div.munuo{
-    margin-top: -36px;
-
-    height: 200px;
-    width: 150px;
-    border-bottom-right-radius:15%;
-
-  display: none;
-  }
-  #logomenue{
-    padding: 0px;
-    font-size: 22px;
-  }
-  div.munuo li {
-
-  padding: 6px;
-  margin-top:6px;
-  list-style-type:none ;
-
-  }
-  div.munuo li a{
-    color: white;
-    text-decoration: none;
-    padding-top: 5px;
-    padding-bottom: 3px;
-  font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
-
-
-    }
-  /* marquee ya bine*/
-  .marquee{
-    padding: 13px;
-  margin-top: 60px;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 12px;
-
-    }
-    img{
-      /*wenaye daspeke */
-        border-radius: 44%;
-        width:250px;
-        height:350px;
-        align-items: center;
-        justify-content: center;
-        border:  1px solid black;
-      margin-top: 14px;
-
-      }
-      /*nivisina nave min*/
-       div #nawemin{
-        text-align: center;
-        align-items: center;
-        justify-items: center;
-        font-size: 12px;
-        font-weight: bolder;
-      }
-      body{ margin: 0;
-        padding: 0;
-
-        background-position: center;
-        background-size: cover;
-        font-family: sans-serif;
-
-      }
-      .sarake{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+			
 
 
-      }
-  }
+		<!-- Footer Section Start -->
+			<footer class="footer-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
+								<p>Copyright © 2024  <a href="https://hereisluck4.github.io/hereisluck/">here's luck</a> | All Rights Reserved</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		<!-- Footer Section End -->
 
+		<!-- Go to Top Link -->
+		<a href="#" class="back-to-top">
+			<i class="fa fa-arrow-up"></i>
+		</a>
 
-
-
-</style>
-
-</head>
-<body >
-
-    <div >
-
-   <!--aw icone sare ko list boma vadbit -->
-    <div  id="logomenue" onclick="menue()" ><i   class="fa fa-bars" aria-hidden="true"></i></div>
-    <div class="munuo" id="menyo"><ul><li><a href="about.html" >about</a> </li><li> <a href="html.html" >social</a></li> <li> <a href="photo.html" >photo</a></li> <li><a onclick="sajo()" >back</a></li></ul></div>
-    <center>
-    <div ><img  src="c.jpg" alt="wene min sarake dekor"></div>
-
-    <!--nivisina nave min--><div id="nawemin">
-    <h1 >Nawzad_Y_Harke</h1></div>
-</center>
-    <!--har 3 linket daspeke a sity-->
-    <div class="sarake"  >
-        <a onclick="lang()" href="about.html">about <sub><small>me</small></sub></a>
-        <a href="html.html">social</a>
-        <a href="photo.html">photo</a>
-    </div>
-    <center>
-    <div>
-      <br><br>
-      <h1 >products</h1>
-      <a href="http://rekarast.byethost8.com/?i=1">
-      <img style="border-radius: 40px; padding: 20px;border: none;" src="rekarast.PNG" alt="rekarast">
-    </a>
-    <br>
-    <a href="http://kurdbazar.byethost15.com/?i=1">
-      <img style="border-radius: 40px; padding: 20px;border: none;" src="bazar.png" alt="rekarast">
-    </a>
-    </div></center>
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <!--marquee ya ma li bine malpare-->
-    <div class="marquee" id="langmar" ><marquee  behavior="" direction="">welcome to my websity this is my official website</marquee></div>
-</div>
-
-<script src="sarake.js"></script>
-</body>
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="assets/js/jquery-min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/modernizr-2.8.3.min.js"></script>
+		<script src="assets/js/particles.min.js"></script>
+		<script src="assets/js/app.js"></script>
+		<script src="assets/js/jquery.nav.js"></script>
+		<script src="assets/js/smooth-scroll.js"></script>
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<script src="assets/js/jquery.mixitup.js"></script>
+		<script src="assets/js/animated-headline.js"></script>
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/js/wow.js"></script>
+		<script src="assets/js/jquery.easing.min.js"></script>  
+		<script src="assets/js/nivo-lightbox.js"></script>
+		<script src="assets/js/form-contact.js"></script>
+		<script src="assets/js/main.js"></script>
+		
+	</body>
 </html>
